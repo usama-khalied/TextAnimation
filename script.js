@@ -7,12 +7,14 @@ const splitText = strText.split("");
 text.textContent="";
 for(let i=0; i < splitText.length; i++){
 
-text.innerHTML += "<span>" + splitText[i] +  "</span>";
+text.innerHTML += "<span>"  + splitText[i]   + "</span>";
 
 }
 let char = 0;
 
-let timer = setInterval(myfun, 30)
+
+
+let timer = setInterval(myfun, 100)
 
 function myfun() {
 
